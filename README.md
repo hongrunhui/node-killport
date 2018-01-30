@@ -1,6 +1,7 @@
-### killport
+## killport
 #### 一键干掉指定端口占用的进程
-* webpack重新打包的时候，老是会出现这样的情况![image](https://user-images.githubusercontent.com/9162319/35551221-1d44ddbc-05c9-11e8-8e11-1a443865f610.png)
+* webpack重新打包的时候，老是会出现这样的情况:
+![image](https://user-images.githubusercontent.com/9162319/35551221-1d44ddbc-05c9-11e8-8e11-1a443865f610.png)
 * 通常都是自己`lsof`找出占用的pid,在用`kill -9 pid` 干掉
 * 上面的做法太麻烦
 * 所以用这个脚本吧（目前只针对mac,其他linux我不知道，改改也可以用吧）
