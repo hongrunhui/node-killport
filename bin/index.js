@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 'use strict'
 
 const exec = require('child_process').exec;
@@ -8,7 +7,7 @@ if (port === 0) {
     console.log('输入参数错误，正确使用方法：kill 8888');
     return;
 }
-const command = `sh ./killport.sh ${port}`;
+const command = `sh ../killport.sh ${port}`;
 exec(command, (err, std, stderr) => {
     if (!err) {
         console.log(std);

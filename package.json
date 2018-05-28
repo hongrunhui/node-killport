@@ -1,10 +1,10 @@
 {
-  "name": "killport",
+  "name": "node-killport",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "kill": "index.js"
+    "kill": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
