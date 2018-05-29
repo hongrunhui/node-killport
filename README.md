@@ -1,7 +1,7 @@
-## killport
+## node-killport
 #### 一键干掉指定端口占用的进程
 ![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000?style=plastic)
-![node](https://img.shields.io/badge/node-4.x-blue.svg)
+![node](https://img.shields.io/badge/node-6.x-blue.svg)
 
 operator system support:    **mac ox , linux**
 
